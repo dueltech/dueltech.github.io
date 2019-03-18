@@ -25,7 +25,12 @@ main {
 }
 
 .arrow {
-  margin-left: .5rem;
+  margin-left: .25rem;
+  transition: margin-left .3s ease;
+}
+
+.tool:hover .arrow {
+  margin-left: .75rem;
 }
 
 .tool > *:first-child {
